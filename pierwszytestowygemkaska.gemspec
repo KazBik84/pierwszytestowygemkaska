@@ -4,12 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pierwszytestowygemkaska/version'
 
 Gem::Specification.new do |spec|
+	#Metadata
   spec.name          = "pierwszytestowygemkaska"
   spec.version       = Pierwszytestowygemkaska::VERSION
   spec.authors       = ["Kazik Bik"]
   spec.email         = ["kazimierz.bik@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "This is my first gem ever created"
+  spec.description   = "This gem will say Hello World from Kazik!"
   spec.homepage      = ""
   spec.license       = "MIT"
 
